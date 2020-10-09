@@ -1,0 +1,27 @@
+.footer {
+  background-color: #f2f2f2;
+  position: absolute;
+  right: 0;
+  left: 0;
+  padding: 20px;
+}
+
+.footer__top {
+  display: flex;
+  font-size: 14px;
+  margin-left: 20%;
+}
+
+.footer__top strong {
+  margin-left: 15px;
+}
+
+.footer__bottom {
+  display: flex;
+  margin-left: 20%;
+  margin-top: 20px;
+}
+
+.footer__bottom p {
+  margin-right: 15px;
+}

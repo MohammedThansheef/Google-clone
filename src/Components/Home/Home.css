@@ -1,0 +1,36 @@
+.home {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.home__header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 10px;
+  margin-right: 10px;
+}
+.home__header a {
+  text-decoration: none;
+  color: black;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 14px;
+}
+.home__header a:hover {
+  text-decoration: underline;
+}
+.appicon {
+  margin-right: 10px;
+  margin-left: 5px;
+  color: grey;
+}
+.home__body {
+  flex: 1;
+  display: flex;
+  margin-top: 10%;
+  flex-direction: column;
+}
+.home__body img {
+  object-fit: contain;
+}
