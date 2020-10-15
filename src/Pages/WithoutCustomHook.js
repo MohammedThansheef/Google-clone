@@ -17,8 +17,8 @@ function SearchPage() {
   const [{ term }] = useStateValue();
   const [data, setData] = useState(null);
   //config
-  const API_KEY = "AIzaSyBqRfA-gSxQln0TzGr1mZGrtLS85nS-dX8";
-  const CONTEXT_KEY = "c5b0a68238ed95145";
+  const API_KEY = "YOUR_API_KEY_HERE";
+  const CONTEXT_KEY = "YOUR_CONTEXT_KEY_HERE";
 
   useEffect(() => {
     fetchData();
